@@ -1,1 +1,1 @@
-# wurstgpt
+# wurstGPT
