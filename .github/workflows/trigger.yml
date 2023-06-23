@@ -31,4 +31,4 @@ jobs:
           EMAIL: ${{ secrets.EMAIL }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
 
-        run: python src/main.py
+        run: python wurstgpt/main.py
