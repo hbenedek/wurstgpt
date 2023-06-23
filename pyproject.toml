@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "wurst"
+version = "0.1.0"
+description = ""
+authors = ["hbenedek <hben.0204@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.8"
+ruff = "^0.0.275"
+pandas = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 120
+extend-ignore = ["E722"]
