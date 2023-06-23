@@ -9,4 +9,9 @@ I used a [Quizlet study set](https://quizlet.com/28209380/top-10000-german-words
 ### Setup
 
 1. Clone the repository
-2. TBD
+2. Set up your Github secrets:
+ - `EMAIL`: Your email address
+ - `EMAIL_PASSWORD`: Your gmail [app password](https://support.google.com/accounts/answer/185833?hl=en)
+ - `API_KEY`: Your [OpenAI API key](https://beta.openai.com/docs/developer-quickstart/your-api-keys)
+3. Run `python3 wurstgpt/main.py` to send a test email
+4. Enjoy learning German, every day 9 AM you will receive an email with 5 new words and example sentences.

@@ -23,8 +23,6 @@ jobs:
           pip install poetry
           poetry install
 
-      - name: ls
-        run: ls
       - name: Send email
         env:
           API_KEY: ${{ secrets.API_KEY }}
