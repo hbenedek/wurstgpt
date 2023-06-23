@@ -4,8 +4,7 @@ from textwrap import dedent
 
 import openai
 import pandas as pd
-
-from wurstgpt.mail import send_email
+from mail import send_email
 
 MODEL = "gpt-3.5-turbo"
 openai.api_key = os.environ.get("API_KEY")
@@ -77,4 +76,5 @@ if __name__ == "__main__":
     main()
 
 
+# TODO: set up cron job as a GitHub action
 # TODO: set up cron job as a GitHub action
