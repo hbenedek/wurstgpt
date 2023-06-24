@@ -26,7 +26,7 @@ def main():
     df = pd.read_csv("data/quizlet.csv")
 
     template = """
-    You helping me to learn German by providing one example sentence (A1/A2 level),
+    You are helping me to learn German by providing one example sentence (A1/A2 level),
     along with the English translation with each of the given words: {word1}, {word2}, {word3}, {word4}, {word5}.
 
     Don't say anything else except the example sentences. The format should be:
@@ -76,5 +76,4 @@ if __name__ == "__main__":
     main()
 
 
-# TODO: set up cron job as a GitHub action
-# TODO: set up cron job as a GitHub action
+
