@@ -37,3 +37,4 @@ I used a [Quizlet study set](https://quizlet.com/28209380/top-10000-german-words
 3. To test locally, set up the environment variables and a virtual environment with [poetry](https://python-poetry.org/).
 4. Run `poetry run python wurstgpt/main.py` to send a test email.
 5. Enjoy learning German, every day at 9 AM (UTC) a GitHub Action is triggered.
+
