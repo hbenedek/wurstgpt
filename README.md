@@ -7,7 +7,7 @@ WurstGPT is a learning companion for German language learners. Every day it will
 ## ✉️ Example mail
 
 ```
-Guetn Tag! I am wurstGPT, here are your daily german words:
+Guten Tag! I am wurstGPT, here are your daily german words:
 
 1. dies - this
 2. z.B. - e.g.

@@ -48,7 +48,7 @@ def main():
 
     body = dedent(
         f"""
-    Guetn Tag! I am wurstGPT, here are your daily german words:
+    Guten Tag! I am wurstGPT, here are your daily german words:
 
     1. {word1} - {translation1}
     2. {word2} - {translation2}
@@ -74,6 +74,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
